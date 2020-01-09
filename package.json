@@ -1,0 +1,19 @@
+{
+  "name": "ddd-pres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "pdf-1": "website-pdf http://localhost:8080/print -o ddd-pres.pdf"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^2.5.1"
+  },
+  "dependencies": {
+    "website-pdf": "^3.0.8"
+  }
+}
